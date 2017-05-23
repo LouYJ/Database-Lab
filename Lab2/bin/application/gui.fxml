@@ -10,19 +10,19 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="591.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.guiController">
    <children>
-      <CheckBox fx:id="checkID1" layoutX="35.0" layoutY="45.0" mnemonicParsing="false" text="Sid where Cid is CNO" />
+      <CheckBox fx:id="checkID1" layoutX="35.0" layoutY="45.0" mnemonicParsing="false" text="Cid:CNO => Sid" />
       <TextField fx:id="ID1" layoutX="321.0" layoutY="41.0" prefHeight="27.0" prefWidth="244.0" />
-      <CheckBox fx:id="checkID2" layoutX="35.0" layoutY="77.0" mnemonicParsing="false" text="Cid and Grade where Sid is SNO" />
+      <CheckBox fx:id="checkID2" layoutX="35.0" layoutY="77.0" mnemonicParsing="false" text="Sid:SNO => Cid and Grade" />
       <TextField fx:id="ID2" layoutX="321.0" layoutY="73.0" prefHeight="27.0" prefWidth="244.0" />
-      <CheckBox fx:id="checkID3" layoutX="35.0" layoutY="110.0" mnemonicParsing="false" text="Sname where Cname is CNAME" />
+      <CheckBox fx:id="checkID3" layoutX="35.0" layoutY="110.0" mnemonicParsing="false" text="Cname:CNAME => Sname" />
       <TextField fx:id="ID3" layoutX="321.0" layoutY="106.0" prefHeight="27.0" prefWidth="244.0" />
-      <CheckBox fx:id="checkID4" layoutX="35.0" layoutY="140.0" mnemonicParsing="false" text="All course information where SNAME" />
+      <CheckBox fx:id="checkID4" layoutX="35.0" layoutY="140.0" mnemonicParsing="false" text="Sname:SNAME => All course info" />
       <TextField fx:id="ID4" layoutX="321.0" layoutY="136.0" prefHeight="27.0" prefWidth="244.0" />
-      <CheckBox fx:id="checkID5" layoutX="35.0" layoutY="171.0" mnemonicParsing="false" text="Sname Cid score where overSCORE" />
+      <CheckBox fx:id="checkID5" layoutX="35.0" layoutY="171.0" mnemonicParsing="false" text="Score>SCORE => Sname and Cid" />
       <TextField fx:id="ID5" layoutX="321.0" layoutY="167.0" prefHeight="27.0" prefWidth="244.0" />
-      <CheckBox fx:id="checkID6" layoutX="35.0" layoutY="202.0" mnemonicParsing="false" text="Sid GPA where GPA is less than SCORE" />
-      <CheckBox fx:id="checkID7" layoutX="35.0" layoutY="233.0" mnemonicParsing="false" text="The number of courses where SNAME" />
-      <CheckBox fx:id="checkID8" layoutX="35.0" layoutY="265.0" mnemonicParsing="false" text="Max min mean score of CNAME" />
+      <CheckBox fx:id="checkID6" layoutX="35.0" layoutY="202.0" mnemonicParsing="false" text="GPA less than SCORE => Sid and GPA" />
+      <CheckBox fx:id="checkID7" layoutX="35.0" layoutY="233.0" mnemonicParsing="false" text="Sname:SNAME => count(courses)" />
+      <CheckBox fx:id="checkID8" layoutX="35.0" layoutY="265.0" mnemonicParsing="false" text="Cname:CNAME => Max, Min, Mean Score" />
       <TextField fx:id="ID6" layoutX="321.0" layoutY="198.0" prefHeight="27.0" prefWidth="244.0" />
       <TextField fx:id="ID7" layoutX="321.0" layoutY="229.0" prefHeight="27.0" prefWidth="244.0" />
       <TextField fx:id="ID8" layoutX="321.0" layoutY="261.0" prefHeight="27.0" prefWidth="244.0" />
